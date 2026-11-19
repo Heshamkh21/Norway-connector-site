@@ -26,6 +26,8 @@ Use these values after the site is live:
 | Launch URL | `https://heshamkh21.github.io/Norway-connector-site/launch.html` |
 | Disconnect URL | `https://heshamkh21.github.io/Norway-connector-site/disconnect.html` |
 | Connect/Reconnect URL | `https://heshamkh21.github.io/Norway-connector-site/connect.html` |
+| End-user licence agreement URL | `https://heshamkh21.github.io/Norway-connector-site/terms.html` |
+| Privacy policy URL | `https://heshamkh21.github.io/Norway-connector-site/privacy.html` |
 
 The repository path is case-sensitive: use **Norway-connector-site**, including
 the capital **N**. If GitHub displays a different/custom site address, use its
@@ -49,14 +51,17 @@ localhost or accounting providers. Local links are followed only when a visitor
 clicks them. Real invoice imports remain read-only; Billit remains sandbox for
 separate generated tests. The public site does not serve accounting data.
 
-The site does not yet include a company-approved EULA or privacy policy. Those
-are separate from the app URL fields. These pages do not establish Intuit
-Production approval; acceptance of the local-app guidance flow must be checked
-in Intuit's setup/review process.
+The user approved publication of the terms and privacy notice on 19 November
+2026. They identify DarkVision Technologies Inc NUF as operator and list
+hesham.khalifa@darkvisiontech.com as the contact. Both have an effective date of
+19 November 2026. Their publication does not establish Intuit Production approval
+or certify unverified security controls. The compliance working draft stays
+private and has not been submitted to Intuit.
 
 ## Deployment contents
 
 Only these site files should be deployed: `.nojekyll`, `index.html`,
-`launch.html`, `connect.html`, `disconnect.html`, `site.css` and this README.
+`launch.html`, `connect.html`, `disconnect.html`, `terms.html`, `privacy.html`,
+`site.css` and this README.
 Do not copy the invoicing application's source, `.local`, `.venv`, exports or
 screenshots into this public repository.
