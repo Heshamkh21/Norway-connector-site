@@ -40,7 +40,7 @@ and saved in the local app.
 ## What the pages do
 
 - **Launch:** explains how to start the installed application, then links to
-  `http://localhost:5000/` on the visitor's computer.
+  `https://localhost:5000/` on the visitor's computer.
 - **Connect/reconnect:** links to the authenticated local connection settings
   and explains selecting and verifying the actual Norway company.
 - **Disconnect:** explains removing saved local tokens and separately revoking
@@ -65,3 +65,12 @@ Only these site files should be deployed: `.nojekyll`, `index.html`,
 `site.css` and this README.
 Do not copy the invoicing application's source, `.local`, `.venv`, exports or
 screenshots into this public repository.
+
+
+## Secure-profile update (19 November 2026)
+
+The pages now guide users to the secure HTTPS launcher after IT certificate and
+reviewed encrypted-migration setup. The privacy/terms descriptions distinguish
+this profile from legacy HTTP sandbox compatibility. No app source, private
+security reports, keys or invoice data are deployed here. This website is still
+not an OAuth backend, a security certification or an Intuit approval.
